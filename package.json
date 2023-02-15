@@ -1,0 +1,33 @@
+{
+  "name": "dconf",
+  "version": "0.1.0",
+  "description": "export and edit gnome linux dconf settings",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaberD/dconf.git"
+  },
+  "keywords": [
+    "dconf",
+    "linux",
+    "json",
+    "settings",
+    "gnome",
+    "system"
+  ],
+  "author": "saberd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SaberD/dconf/issues"
+  },
+  "homepage": "https://github.com/SaberD/dconf#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "jest": "^29.4.2"
+  }
+}
