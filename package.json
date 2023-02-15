@@ -1,5 +1,5 @@
 {
-  "name": "dconf",
+  "name": "@saberd/dconf",
   "version": "0.1.0",
   "description": "export and edit gnome linux dconf settings",
   "main": "index.js",
