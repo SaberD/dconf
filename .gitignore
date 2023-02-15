@@ -31,10 +31,6 @@ Thumbs.db
 jspm_packages/
 typings/
 
-# Ignore package-lock.json and yarn.lock if using npm or yarn as package manager
-package-lock.json
-yarn.lock
-
 # Ignore build directories
 dist/
 build/
