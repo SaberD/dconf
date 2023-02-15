@@ -43,6 +43,11 @@ function json_dconf (data) {
 
 const fs = require("fs");
 
+/**
+Opens json file, converts to conf and writes to file
+@param {string} json_path path to the json file to read
+@param {string} dest path to save the dconf file
+*/
 function dconf_writer (json_path, dest = "output.conf") {
     fs.readFile(json_path, (err, jsonData) => {
         if (err) {

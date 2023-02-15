@@ -71,6 +71,11 @@ function dconf_json (dconf) {
 
 const fs = require('fs');
 
+/**
+Read *.conf file (exported by "dconf dump / > gnome.conf") and export as json.
+@param {string} dconf_path The path to your dconf file"
+@param {string} dest path to save the json file
+*/
 function json_writer (dconf_path, dest = "output.json") {
     const dconf = fs.readFileSync(dconf_path, { encoding: "utf-8" });
 
