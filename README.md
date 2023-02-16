@@ -15,6 +15,23 @@ dconfjson.json_writer("FILENAME.conf", dest="FILENAME.json")
 dconfjson.dconf_writer("FILENAME.json", dest="FILENAME_2.conf")
 ```
 
+To load new dconf parameters into gnome use (bash):
+
+```bash
+dconf load / < FILENAME_2.conf
+```
+
+To get the gnome config out as a javascript json use:
+
+```js
+const fs = require('fs');
+const dconfjson = require('dconf-json');
+
+const dconf_path = 'path/to/dconf/file';
+const dconf = fs.readFileSync(dconf_path, 'utf-8');
+const config_dict = dconfjson.dconf_json(dconf);
+```
+
 ## Without using files
 To get the dconf out as json without using files:
 ```js
