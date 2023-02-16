@@ -29,7 +29,7 @@ const dconfjson = require('dconf-json');
 
 const dconf_path = 'path/to/dconf/file';
 const dconf = fs.readFileSync(dconf_path, 'utf-8');
-const config_dict = dconfjson.dconf_json(dconf);
+const config_json = dconfjson.dconf_json(dconf);
 ```
 
 ## Without using files
