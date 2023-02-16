@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SaberD/dconf.git"
+    "url": "git+https://github.com/SaberD/dconf-json.git"
   },
   "keywords": [
     "dconf",
@@ -21,9 +21,9 @@
   "author": "saberd",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SaberD/dconf/issues"
+    "url": "https://github.com/SaberD/dconf-json/issues"
   },
-  "homepage": "https://github.com/SaberD/dconf#readme",
+  "homepage": "https://github.com/SaberD/dconf-json#readme",
   "dependencies": {
     "fs": "^0.0.1-security"
   },
