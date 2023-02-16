@@ -8,6 +8,12 @@ dconf dump / > FILENAME.conf
 ```
 
 Example usage to convert conf and store as json file and take json and store as conf file
+```js
+const dconfjson = require('dconf-json');
+
+dconfjson.json_writer("FILENAME.conf", dest="FILENAME.json")
+dconfjson.dconf_writer("FILENAME.json", dest="FILENAME_2.conf")
+```
 
 ## Without using files
 To get the dconf out as json without using files:
